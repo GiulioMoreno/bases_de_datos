@@ -89,13 +89,13 @@ Usos típicos de Redis en el trabajo: caché de consultas pesadas, sesiones de u
 
 ## 2.6 Cuándo usar una base de datos no relacional
 
-✅ Úsala cuando:
+Se usa cuando:
 - Los datos tienen **estructura variable o semi-estructurada** (cada registro puede diferir).
 - Necesitas **escalar horizontalmente** con facilidad (millones de usuarios/eventos).
 - Necesitas **velocidad extrema** para lecturas/escrituras simples (caché, sesiones, contadores).
 - El caso de uso es más de "documentos completos" que de relaciones complejas entre muchas tablas.
 
-❌ Evítala (o complementa con SQL) cuando:
+No se usa o se complementa con SQL cuando:
 - Necesitas **transacciones estrictas y consistencia total** (dinero, contabilidad).
 - Hay **muchas relaciones complejas** entre entidades que se benefician de JOINs (por ejemplo, reportes financieros con muchas tablas cruzadas).
 - El equipo necesita fuerte validación de esquema para evitar datos inconsistentes.
