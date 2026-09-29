@@ -98,13 +98,13 @@ JOIN pedidos p ON p.usuario_id = u.id;
 
 ## 1.7 Cuándo usar una base de datos relacional
 
-✅ Úsala cuando:
+Se usa cuando:
 - Los datos tienen una **estructura clara y estable** (no cambia todo el tiempo).
 - Necesitas **relaciones fuertes** entre entidades (usuarios-pedidos-productos).
 - La **integridad de los datos** es crítica (dinero, inventario, contratos).
 - Necesitas hacer consultas complejas con `JOIN`, agregaciones y reportes.
 
-❌ Evítala (o complementa con NoSQL) cuando:
+No se usa o se complementa con NoSQL cuando:
 - El volumen de escritura/lectura es masivo y necesitas escalar horizontalmente sin fricción.
 - La estructura de los datos cambia constantemente (esquemas muy variables).
 - Necesitas almacenar datos no estructurados como logs masivos, sesiones temporales o caché de alta velocidad.
