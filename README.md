@@ -1,10 +1,10 @@
-# 📚 Bases de Datos: Relacionales vs No Relacionales
+# Bases de Datos: Relacionales vs No Relacionales
 
 Documentación completa sobre bases de datos relacionales (SQL) y no relacionales (NoSQL): qué son, cómo funcionan, cuándo usarlas, gestores comunes, comparativas de eficiencia y casos prácticos del mundo laboral.
 
 > Stack de ejemplo usado en esta guía: **PostgreSQL** + **DBeaver** (relacional) y **MongoDB** + **Redis** (no relacional).
 
-## 🗂️ Índice
+## Índice
 
 | Documento | Contenido |
 |---|---|
@@ -15,7 +15,7 @@ Documentación completa sobre bases de datos relacionales (SQL) y no relacionale
 | [`docs/05-casos-practicos.md`](docs/05-casos-practicos.md) | Ejemplos reales, casos de uso en la industria, relaciones y variabilidad |
 | [`docs/06-excepciones-y-limitaciones.md`](docs/06-excepciones-y-limitaciones.md) | Excepciones, límites y errores comunes de cada tipo |
 
-## 🎯 Objetivo
+## Objetivo
 
 Este repositorio sirve como **documentación de referencia personal/profesional** para entender:
 
@@ -24,20 +24,19 @@ Este repositorio sirve como **documentación de referencia personal/profesional*
 - Qué gestor usar según el problema (PostgreSQL, MySQL, MongoDB, Redis, etc.).
 - Buenas prácticas de organización, modelado y rendimiento.
 
-## 🧱 Resumen ultra rápido
+## Resumen en mis propias palabras
 
 - **Relacionales (SQL):** datos en tablas con esquema fijo y relaciones entre ellas mediante llaves primarias/foráneas. Prioridad: **consistencia e integridad**. Ejemplo: PostgreSQL.
 - **No relacionales (NoSQL):** datos en documentos, pares clave-valor, columnas anchas o grafos, con esquema flexible. Prioridad: **velocidad y escalabilidad horizontal**. Ejemplos: MongoDB (documentos), Redis (clave-valor en memoria).
 
-## 🛠️ Stack usado en los ejemplos
+## Stack usado en los ejemplos
 
 - **Relacional:** PostgreSQL + DBeaver como IDE/cliente.
 - **No relacional (documentos):** MongoDB.
 - **No relacional (clave-valor / caché):** Redis.
 
-## 📖 Cómo leer esta documentación
+## Cómo leer esta documentación
 
-Se recomienda leer en orden: primero relacionales, luego no relacionales, después la comparativa, y finalmente los casos prácticos para ver todo aplicado.
+Se recomienda leer en orden: relacionales, no relacionales, comparativa, y finalmente los casos prácticos para ver todo aplicado.
 
 ---
-📌 *Documentación creada como recurso de estudio y referencia profesional sobre gestión de bases de datos.*
