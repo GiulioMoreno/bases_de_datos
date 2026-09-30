@@ -47,4 +47,5 @@ Se recomienda leer en orden: relacionales, no relacionales, comparativa, y final
 2- **¿Cuál es la mejor manera de tener una lógica sin fallas y efectiva para un ambiente laboral?**
 
 3- **¿Qué es el "Indexado" y cómo afecta al rendimiento real de las consultas lentas?**
+
 ---
